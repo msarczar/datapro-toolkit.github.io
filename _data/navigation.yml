@@ -1,12 +1,34 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Learning Content"
+    children:
+      - title: "Excel"
+        url: /learning-content/excel/
+      - title: "SQL"
+        url: /learning-content/sql/
+      - title: "Tableau"
+        url: /learning-content/tableau/
+      - title: "Python"
+        url: /learning-content/python/
+
+  - title: "Projects + Portfolios"
+    children:
+      - title: "Examples"
+        url: /projects-portfolios/examples/
+      - title: "Project Idea Generator"
+        url: /projects-portfolios/project-idea-generator/
+      - title: "Showcasing Your Work"
+        url: /projects-portfolios/showcasing-your-work/
+
+  - title: "The Job Hunt"
+    children:
+      - title: "Resume Building"
+        url: /the-job-hunt/resume-building/
+      - title: "Searching Effectively"
+        url: /the-job-hunt/searching-effectively/
+      - title: "Application Optimization"
+        url: /the-job-hunt/application-optimization/
+      - title: "Interviewing"
+        url: /the-job-hunt/interviewing/
+      - title: "Negotiating"
+        url: /the-job-hunt/negotiating/
